@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+*::-webkit-scrollbar-track {
+    background: #131616;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #994699;
+    border-radius: 12px;
+    border: 2px double #a344a3;
+}
+
+*{
+    margin: 0;
+}
+
+html{
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    background-color: #762f88;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav img{
+    display: block;
+    width: 50px;
+    margin: 0;
+    filter: drop-shadow(0 0 0.75rem rgb(82, 80, 83));
+}
+ 
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav ul li{
+    margin-left: 1em;
+    margin-right: 1em;
+    transition: all 200ms;
+}
+
+nav ul li a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    transition: all 200ms;
+    text-shadow: 0px 0px 10px #4e4e4c;
+}
+
+#primero{
+    margin-left: 0;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+nav ul li a:hover{
+    text-shadow: 0px 0px 10px #bebebe;
+    color: rgb(255, 254, 254);
+}
+
+header h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-shadow: 0px 0px 50px #61615f;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 30px #7e7e7c;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    box-shadow: 0px 0px 30px #2c2c2b;
+}
+
+#citado{
+    font-size: 20px;
+    color: rgb(189, 186, 186);
+    text-shadow: 0px 0px 30px #585857;
+    margin-bottom: 8em;
+}
+
+footer{
+    width: 100%;
+    background-color: #5f296d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer p{
+    font-size: 14px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: rgb(211, 208, 208);
+}
+
+.container{
+    width: 100%;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    flex-basis: 100%;
+    gap: 2em;
+}
+
+.bloque{
+    display: block;
+    background-color: #763c85;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    transition: all 200ms;
+    box-shadow: 0px 0px 30px rgb(78, 36, 78);
+}
+
+.bloque img{
+    display: block;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(78, 36, 78);
+    filter: drop-shadow(0 0 0.75rem rgb(45, 44, 46));
+}
+
+.bloque h1{
+    font-size: 22px;
+    margin-top: 0.25em;
+}
+
+#tituloespecial{
+    margin-bottom: 0.65em;
+}
+
+.bloque:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgb(150, 69, 150);
+    background-color: #763c85;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 200px;
+    height: 75px;
+    background-color: #5f296d;
+    border: 0;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px #642e64;
+    transition: all 200ms;
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px #914391;
+    background-color: #6d2f7c;
+}
+
+.linea{
+    border-bottom: 2px solid rgb(151, 82, 151);
+    margin: auto;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    width: 25%;
+}
+
+#margin{
+    margin-bottom: 20em;
+}
+
+/* footer */
+
+.footer{
+    width:50%;
+    background-color: #5f296d;
+    display: block;
+}
+
+.grid{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid rgb(151, 82, 151);
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2em;
+}
+
+.list{
+    display: block;
+    height: 100px;
+}
+
+.list h1{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(230, 224, 224);
+}
+
+.list p, .right p{
+    transition: all 200ms;
+}
+
+.list a, .right p a{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(230, 224, 224);
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.list p:hover, .right p:hover{
+    transform: scale(1.1);
+}
+
+.list a:hover, .right p a:hover{
+    text-shadow: 0px 0px 10px #bebebe;
+    color: rgb(255, 254, 254);
+}
+
+.left{
+    display: flex;
+    width: 70%;
+}
+
+.left p{
+    color: rgb(230, 224, 224);
+}
+
+.alist{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.alist i{
+    padding-top: 0.8em;
+    color: rgb(151, 151, 149);
+    transition: all 200ms;
+}
+
+.alist i:hover{
+    color: rgb(228, 228, 225);
+    transform: scale(1.1);
+    padding-left: 1em;
+    padding-right: 1em;
+    filter: drop-shadow(0 0 0.75rem rgb(169, 168, 170));
+    cursor:pointer;
+}
+
+@media (max-width: 1000px){
+    .bloque{
+        display: block;
+        background-color: #5f296d;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 6em;
+    }
+    
+    .bloque img{
+        display: block;
+        width: 150px;
+        margin: auto;
+        padding-bottom: 1em;
+        border-bottom: 2px solid #4b2753;
+        filter: drop-shadow(0 0 0.75rem rgb(45, 44, 46));
+    }
+
+    button{
+        margin-bottom: 3em;
+    }
+
+    #citado{
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width: 500px){
+    nav ul li{
+        margin-left: 0;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    #video{
+        width: 400px;
+    }
+
+    .list h1{
+        font-size: 25px;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header p{
+        font-size: 20px;
+    }
+
+    button{
+        width: 160;
+        height: 60px;
+        font-size: 25px;
+    }
+}
+
+.logo{
+    animation-name: logo;
+    animation-duration: 0.5s;
+}
+
+.fadedown{
+    animation-name: fadedown;
+    animation-duration: 0.5s;
+}
+
+.fadeup{
+    animation-name: fadeup;
+    animation-duration: 0.5s;
+}
+
+@keyframes logo{
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadedown{
+    from{
+        opacity: 0.1;
+        transform: translate3d(0, -20%, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeup{
+    from{
+        opacity: 0.1;
+        transform: translate3d(0, 20%, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
